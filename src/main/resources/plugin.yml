@@ -1,0 +1,14 @@
+name: SS
+main: fr.ss.SS
+version: 1.0
+description: Menu de sanctions /ss compatible MaxBans
+softdepend: [MaxBans]
+commands:
+  ss:
+    description: Ouvre le menu de sanction d'un joueur
+    usage: /ss <joueur>
+    permission: ss.use
+permissions:
+  ss.use:
+    description: Utiliser /ss
+    default: op
